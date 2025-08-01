@@ -3,5 +3,5 @@ def check_if_odd(number):
 
 print(check_if_odd(1))
 print(check_if_odd(12))
-print(check_if_odd(3))
-print(check_if_odd(4))
+print(check_if_odd(-3))
+print(check_if_odd(-4))
