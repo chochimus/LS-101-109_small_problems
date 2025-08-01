@@ -24,8 +24,8 @@ def solve(num, op):
         
 def product(num):
     total = 1
-    for num in range(1, num + 1):
-        total *= num
+    for i in range(1, num + 1):
+        total *= i
     return total
 
 number = get_num()
