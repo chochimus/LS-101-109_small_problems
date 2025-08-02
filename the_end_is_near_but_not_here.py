@@ -1,5 +1,5 @@
 def penultimate(string):
-    return string.split(" ")[-2]
+    return string.split()[-2]
 
 # These examples should print True
 print(penultimate("last word") == "last")
