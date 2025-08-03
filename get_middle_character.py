@@ -1,10 +1,10 @@
-def center_of(str):
-    if len(str) % 2 == 0:
-        start = (len(str) // 2) - 1
+def center_of(string):
+    if len(string) % 2 == 0:
+        start = (len(string) // 2) - 1
         end = start + 2
-        return str[start:end]
+        return string[start:end]
     else:
-        return str[len(str)//2]
+        return string[len(string)//2]
 
 print(center_of('I Love Python!!!') == "Py")    # True
 print(center_of('Launch School') == " ")        # True
